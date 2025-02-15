@@ -1,0 +1,238 @@
+body{
+    margin: 0;
+    padding: none;
+    box-sizing: border-box;
+}
+.home_photo .home_photo2{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+}
+
+.home_background{
+margin: 280px 180px;
+}
+
+
+.home_photo{
+    width: 500px;
+}
+
+.home_background h1{
+    font-size: 50px;
+    max-width: 500px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #ffffff;
+}
+.home_background p{
+    max-width: 400px;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.home_background_btns button{
+    padding: 15px 50px;
+    cursor: pointer;
+}
+.home_background_btn1{
+    background-color: rgb(7, 53, 99);
+    border: 1px solid rgb(7, 53, 99);
+    border-radius: 20px;
+    margin-right: 20px;
+    color: #ffffff;
+    font-size: 16px;
+    transition: 0.5s;
+}
+.home_background_btn1:hover{
+    letter-spacing: 0.5px;
+}
+
+.home_background_btn2{
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 20px;
+    margin-right: 20px;
+    color: #000000;
+    font-size: 16px;
+    transition: 0.5s;
+}
+.home_background_btn2:hover{
+    letter-spacing: 0.5px;
+}
+
+/* body */
+
+.why_choose_us{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffffff;
+    padding: 20px;
+    border: 2px solid rgb(7, 53, 99);
+    border-radius: 20px;
+}
+.why_choose_us h1{
+    font-size: 50px;
+}
+.why_choose_us p{
+    max-width: 350px;
+    font-size: 20px;
+}
+.why_choose_us img{
+    width: 150px;
+}
+
+.flexible{
+    height: 255px;
+    background-color: #ffffff;
+    padding: 20px;
+    border: 2px solid rgb(7, 53, 99);
+    border-radius: 20px;
+}
+.flexible img{
+    width: 50px;
+}
+.flexible p{
+    max-width: 350px;
+}
+
+.choose_and_flexible{
+display: grid;
+grid-template-columns: repeat(3, 450px);
+gap: 20px ;
+margin-left: 60px;
+}
+.choose_and_flexible .why_choose_us{
+    grid-column: 1/3;
+}
+
+.home_courses{
+    padding: 20px;
+}
+
+.home_courses_div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.courses_ul{
+    display: flex;
+    align-items: center;
+}
+.courses_ul li{
+    margin: auto 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.home_courses h1{
+    font-size: 50px;
+    margin-left: 40px;
+}
+.home_courses_div button{
+    padding: 15px 20px;
+    background-color:rgb(7, 53, 99) ;
+    color: #ffffff;
+    border: 2px solid rgb(7, 53, 99);
+    border-radius: 20px;
+    cursor: pointer;
+}
+.home_courses_div button:hover{
+    color: rgb(7, 53, 99);
+    background-color: #ffffff;
+}
+
+.home_teacher{
+    padding: 20px;
+}
+
+.home_teacher h1{
+    font-size: 50px;
+    margin-left: 40px;
+    margin-bottom: 0;
+}
+
+.home_teacher_div{
+    margin-top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.home_teacher_div p{
+    font-size: 20px;
+    margin-left: 50px;
+}
+.home_teacher_div button{
+    padding: 15px 20px;
+    background-color:rgb(7, 53, 99) ;
+    color: #ffffff;
+    border: 2px solid rgb(7, 53, 99);
+    border-radius: 20px;
+    cursor: pointer;
+}
+.home_teacher_div button:hover{
+    color: rgb(7, 53, 99);
+    background-color: #ffffff;
+}
+.card-img-top{
+    width: 200px;
+}
+.card{
+    border: 2px solid rgb(7, 53, 99);
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
+.teachers{
+    display: grid;
+    grid-template-columns: repeat(4,300px);
+    gap: 50px;
+    margin-left: 55px;
+}
+.teacher_social{
+position: absolute;
+}
+.teacher_social li{
+    cursor: pointer;
+padding: 2.5px;
+font-size: 20px;
+margin-left: 10px;
+}
+
+.student_say{
+    padding: 20px;
+    margin-left: 50px;
+}
+#carouselExample{
+    margin-left: 90px;
+}
+
+.home_blog_div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.home_blog h1{
+    font-size: 50px;
+    margin-left: 60px;
+    margin-bottom: 0;
+}
+.home_blog p{
+    font-size: 20px;
+    margin-left: 60px;
+}
+.home_blog_div button{
+    padding: 15px 20px;
+    background-color:rgb(7, 53, 99) ;
+    color: #ffffff;
+    border: 2px solid rgb(7, 53, 99);
+    border-radius: 20px;
+    cursor: pointer;
+    margin-right: 20px;
+}
+.home_blog_div button:hover{
+    color: rgb(7, 53, 99);
+    background-color: #ffffff;
+}
